@@ -1,0 +1,11 @@
+New Terminal
+
+1. javac *.java
+2. rmic ServerImplementation
+3. rmiregistry
+
+New Terminal
+1. java Server
+
+New Terminal
+1. java Client aba

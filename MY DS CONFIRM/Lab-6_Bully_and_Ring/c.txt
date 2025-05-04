@@ -1,0 +1,2 @@
+javac Ring.java
+java Ring

@@ -1,0 +1,8 @@
+1st terminal :
+idlj -fall ReverseModule.idl
+javac .java ReverseModule/.java
+Start-Process orbd -ArgumentList "-ORBInitialPort 1056"
+Start-Process java -ArgumentList "ReverseServer", "-ORBInitialPort", "1056"
+
+2nd terminal
+java ReverseClient -ORBInitialPort 1056 -ORBInitialHost localhost
